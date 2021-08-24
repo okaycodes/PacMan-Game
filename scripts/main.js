@@ -1,7 +1,7 @@
 const get = (id) => document.getElementById(id)
 
 const grid = get('grid');
-const scoreBoard = document.getElementById('score');
+const scoreBoard = get('score');
 const squares = document.getElementsByClassName('square');
 const dotsArr = document.getElementsByClassName('pac-dot')
 const modalOvelay =   document.getElementById('modal-overlay')
