@@ -1,0 +1,54 @@
+.square{
+    background: green;
+    height: 25px;
+    width: 25px;
+    border: solid 2px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 60%;
+    background: blue;
+    width: 60%;
+    border: solid 2px blue;
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+
+.triangle-right{
+    height: 0px;
+    width: 0px;
+    border-top: 9px solid transparent;
+    border-right: 17px solid black;
+    border-bottom: 9px solid transparent;
+    transform: translate(20%, -10%);
+}
+
+.triangle-left{
+  height: 0px;
+  width: 0px;
+  border-top: 7.75px solid transparent;
+  border-left: 15.5px solid black;
+  border-bottom: 7.75px solid transparent;
+  transform: translateX(-40%);
+}
+
+.triangle-up{
+  height: 0px;
+  width: 0px;
+  border-left: 7.75px solid transparent;
+  border-top: 15.5px solid black;
+  border-right: 7.75px solid transparent;
+  transform: translateY(-40%);
+}
+
+.triangle-bottom{
+  height: 0px;
+  width: 0px;
+  border-left: 7.75px solid transparent;
+  border-bottom: 15.5px solid black;
+  border-right: 7.75px solid transparent;
+  transform: translateY(40%);
+}
